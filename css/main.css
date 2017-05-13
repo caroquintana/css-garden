@@ -1,1 +1,44 @@
-/* Agrega aquí tus estilos*/
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:500');
+
+body{
+	background-color: #F4F6F6;
+	margin-left: 20px;
+}
+
+h1, h2, h3{
+	font-family: 'Lobster', cursive;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	color: #2C3E50;
+}
+
+h2, h3{
+	color: #2C3E50;
+}
+
+section.intro{
+	background-color: #ABEBC6  ;
+}
+
+section header h1{
+	font-size: 75px;
+	color: #2C3E50;
+	text-align: center;
+	margin: 0;
+	padding: 130px;
+}
+
+section header h2{
+	text-align: center;
+}
+
+#zen-summary{
+	text-align: center;
+	padding: 6%;
+}
+
+.preamble{
+	padding: 20%;
+}
