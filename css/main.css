@@ -9,8 +9,9 @@ body{
 	margin-left: 20px;
 }
 
-h1, h2, h3{
+h1, h2, h3, abbr{
 	font-family: 'Lobster', cursive;
+	text-decoration: none;
 }
 
 h2{
