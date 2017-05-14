@@ -14,13 +14,30 @@ h1, h2, h3{
 	font-family: 'Lobster', cursive;
 }
 
+h2{
+	font-size: 40px;
+}
+
+h3{
+	font-size: 30px;
+}
+
 p{
 	font-family: 'Raleway', sans-serif;
+	line-height: 25px;
 }
 
 a{
 	text-decoration: none;
 	color:#F4D03F;
+}
+
+a:visited {
+    color: #1a5952;
+  }
+
+a:hover, a:focus {
+    color: #0599c2;
 }
 
 
@@ -62,6 +79,11 @@ h3 .explanation{
 	color: #fff;
 }
 
+ul{
+	list-style: none;
+	display: inline-block;
+}
+
 footer {
 	padding:40px 40px;
 	background-color: rgba(8, 134, 74, 0.90);
@@ -74,4 +96,22 @@ footer {
     color:#fff;
 }
 
+.design-selection, .design-archives, .zen-resources{
+	text-align: center;	
+}
 
+.design-archives{
+	background-color: #ECF0F1;
+	color: #2C3E50;
+
+}
+.sidebar{
+	width: 100%;
+}
+.design-selection, .design-archives, .zen-resources{
+	display:inline-block;
+	height: 280px;
+	text-align: center;
+	float:left;
+	padding:4%;
+}
