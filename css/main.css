@@ -43,7 +43,6 @@ a:hover, a:focus {
 
 section.intro{
 	background-image: url(../img/ancient-1807518_1280.jpg);
-
 }
 
 
@@ -73,7 +72,7 @@ section header h2{
 }
 .explanation, .benefits{
 	padding: 10%;
-	background-color: rgba(8, 134, 74, 0.90);
+	background-image: url(../img/lapland-139186_1280.jpg);
 	color: #fff; 
 
 }
