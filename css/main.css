@@ -11,7 +11,6 @@ h1, h2, h3{
 
 p{
 	font-family: 'Raleway', sans-serif;
-	color: #2C3E50;
 }
 
 h2, h3{
@@ -19,12 +18,12 @@ h2, h3{
 }
 
 section.intro{
-	background-color: #ABEBC6  ;
+	background-color: rgba(8, 134, 74, 0.90) ;
 }
 
 section header h1{
 	font-size: 75px;
-	color: #2C3E50;
+	color: #fff;
 	text-align: center;
 	margin: 0;
 	padding: 130px;
@@ -32,15 +31,22 @@ section header h1{
 
 section header h2{
 	text-align: center;
+	color: #fff;
 }
 
 #zen-summary{
 	text-align: center;
 	padding: 6%;
+	color: #fff;
 }
 
 .preamble{
 	padding: 20%;
+	background-color: #F4F6F6;
+	color: #2C3E50;  
+}
+p .preamble{
+	color: #2C3E50;
 }
 
 
