@@ -2,7 +2,6 @@
 
 *{
 	font-family: "Raleway", sans-serif;
-
 }
 
 body{
@@ -33,24 +32,27 @@ a{
 }
 
 a:visited {
-    color: #1a5952;
+    color: #7DCEA0;
   }
 
 a:hover, a:focus {
-    color: #0599c2;
+    color: rgba(8, 134, 74, 0.90);
+
 }
 
 
 section.intro{
-	background-color: rgba(8, 134, 74, 0.90) ;
+	background-image: url(../img/ancient-1807518_1280.jpg);
+
 }
 
+
 section header h1{
-	font-size: 75px;
+	font-size: 80px;
 	color: #fff;
 	text-align: center;
 	margin: 0;
-	padding: 130px;
+	padding: 130px 20px;
 }
 
 section header h2{
@@ -65,16 +67,17 @@ section header h2{
 }
 
 .preamble, .participation, .requirements{
-	padding: 20%;
+	padding: 10%;
 	background-color: #ECF0F1;
 	color: #2C3E50;  
 }
 .explanation, .benefits{
-	padding: 20%;
+	padding: 10%;
 	background-color: rgba(8, 134, 74, 0.90);
 	color: #fff; 
 
 }
+
 h3 .explanation{
 	color: #fff;
 }
@@ -90,28 +93,27 @@ footer {
 	color: #fff; 
 	text-align: center;	
 }
+
 .fa-4x {
     font-size: 4em;
     padding: 16px;
     color:#fff;
 }
 
-.design-selection, .design-archives, .zen-resources{
-	text-align: center;	
-}
+.fa-4x:focus, .fa-4x:hover {
+    color: #F4D03F;
+  }
 
-.design-archives{
-	background-color: #ECF0F1;
-	color: #2C3E50;
-
-}
 .sidebar{
 	width: 100%;
 }
+
 .design-selection, .design-archives, .zen-resources{
+	background-color: #ECF0F1;
+	color: #2C3E50;	
 	display:inline-block;
 	height: 280px;
 	text-align: center;
 	float:left;
-	padding:4%;
+	padding:6%;
 }
