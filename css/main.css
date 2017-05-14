@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:500');
 
+*{
+	font-family: "Raleway", sans-serif;
+
+}
+
 body{
-	background-color: #F4F6F6;
+	background-color: #ECF0F1;
 	margin-left: 20px;
 }
 
@@ -13,9 +18,11 @@ p{
 	font-family: 'Raleway', sans-serif;
 }
 
-h2, h3{
-	color: #2C3E50;
+a{
+	text-decoration: none;
+	color:#F4D03F;
 }
+
 
 section.intro{
 	background-color: rgba(8, 134, 74, 0.90) ;
@@ -40,14 +47,31 @@ section header h2{
 	color: #fff;
 }
 
-.preamble{
+.preamble, .participation, .requirements{
 	padding: 20%;
-	background-color: #F4F6F6;
+	background-color: #ECF0F1;
 	color: #2C3E50;  
 }
-p .preamble{
-	color: #2C3E50;
+.explanation, .benefits{
+	padding: 20%;
+	background-color: rgba(8, 134, 74, 0.90);
+	color: #fff; 
+
+}
+h3 .explanation{
+	color: #fff;
 }
 
+footer {
+	padding:40px 40px;
+	background-color: rgba(8, 134, 74, 0.90);
+	color: #fff; 
+	text-align: center;	
+}
+.fa-4x {
+    font-size: 4em;
+    padding: 16px;
+    color:#fff;
+}
 
 
